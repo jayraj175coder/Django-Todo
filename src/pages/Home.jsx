@@ -22,7 +22,7 @@ const Home = () => {
             <div className=' flex flex-col text-white w-full gap-5 p-4'>
                 
                 <h1 className=' font-bold text-3xl'>
-                    Discover the Multiverse of Rick and Morty
+                    Discover the Multiverse of Rick and Morty where ...
                 </h1>
 
                <div className=' flex flex-col gap-4 lg:gap-10'>
@@ -41,7 +41,7 @@ const Home = () => {
                         </div>
 
                         <p className=' hidden md:block'>
-                            ~ Developed with <Heart className=' inline-block ' fill='red' /> by Tanmay Rane 
+                            ~ Developed with <Heart className=' inline-block ' fill='red' /> by Jayraj SANAS
                         </p>
 
                     </div>
