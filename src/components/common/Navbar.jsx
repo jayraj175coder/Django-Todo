@@ -23,9 +23,9 @@ const Navbar = () => {
 
             <div className=' hidden lg:flex items-center gap-5 '>
                 {/* FOr Desptop view */}
-                <Link className='  hover:text-yellow-400  relative group' to={"/characters"}>Characters <div className=' absolute scale-x-0 group-hover:scale-x-100 duration-300  h-[2px] w-full bg-white group-hover:bg-yellow-400' /></Link>
-                <Link className='  hover:text-yellow-400  relative group' to={"/episodes"}>Episodes <div className=' absolute scale-x-0 group-hover:scale-x-100 duration-300  h-[2px] w-full bg-white group-hover:bg-yellow-400' /></Link>
-                <Link className='  hover:text-yellow-400  relative group' to={"/locations"}>Locations <div className=' absolute scale-x-0 group-hover:scale-x-100 duration-300  h-[2px] w-full bg-white group-hover:bg-yellow-400' /></Link>
+                <Link className='  hover:text-yellow-500  relative group' to={"/characters"}>Characters <div className=' absolute scale-x-0 group-hover:scale-x-100 duration-300  h-[2px] w-full bg-white group-hover:bg-yellow-400' /></Link>
+                <Link className='  hover:text-yellow-500  relative group' to={"/episodes"}>Episodes <div className=' absolute scale-x-0 group-hover:scale-x-100 duration-300  h-[2px] w-full bg-white group-hover:bg-yellow-400' /></Link>
+                <Link className='  hover:text-yellow-500  relative group' to={"/locations"}>Locations <div className=' absolute scale-x-0 group-hover:scale-x-100 duration-300  h-[2px] w-full bg-white group-hover:bg-yellow-400' /></Link>
             </div>
 
             {/* For mobile view */}
