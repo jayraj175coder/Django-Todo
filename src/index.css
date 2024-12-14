@@ -73,7 +73,28 @@
     body {
       @apply bg-background text-foreground;
     }
+    
   }
+
+  @layer utilities {
+    .border-border {
+      border-width: 1px;
+      border-color: #ccc;
+    }
+  }
+ .bg-background{
+
+ }
+ .text-foreground{}
+.border-border {
+  /* some CSS */
+}
+
+
+.border {
+  border-width: 1px;
+  
+}
 
 
   .loader {
